@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42080" started-at="2019-11-13T12:50:44Z" finished-at="2019-11-13T12:51:26Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="42080" started-at="2019-11-13T12:50:44Z" finished-at="2019-11-13T12:51:26Z">
+      <class name="test.java.Tests.MainTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.java.Tests.MainTest@2c039ac6]" name="beforeTest" is-config="true" duration-ms="148" started-at="2019-11-13T12:50:44Z" finished-at="2019-11-13T12:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.java.Tests.MainTest@2c039ac6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-11-13T12:50:44Z" finished-at="2019-11-13T12:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.java.Tests.MainTest@2c039ac6]" name="beforeMethod" is-config="true" duration-ms="14868" started-at="2019-11-13T12:50:44Z" finished-at="2019-11-13T12:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testNGTest()[pri:0, instance:test.java.Tests.MainTest@2c039ac6]" name="testNGTest" duration-ms="24067" started-at="2019-11-13T12:50:59Z" finished-at="2019-11-13T12:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNGTest -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult)[pri:0, instance:test.java.Tests.MainTest@2c039ac6]" name="afterEachTest" is-config="true" duration-ms="236" started-at="2019-11-13T12:51:23Z" finished-at="2019-11-13T12:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNGTest status=SUCCESS method=MainTest.testNGTest()[pri:0, instance:test.java.Tests.MainTest@2c039ac6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.java.Tests.MainTest@2c039ac6]" name="afterSuite" is-config="true" duration-ms="2724" started-at="2019-11-13T12:51:23Z" finished-at="2019-11-13T12:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.java.Tests.MainTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
